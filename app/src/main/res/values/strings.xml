@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_my_gesture">MyGesture</string>
+    <string name="title_activity_download_gesture">DownloadGesture</string>
+    <string name="title_activity_make_gesture">MakeGesture</string>
 </resources>

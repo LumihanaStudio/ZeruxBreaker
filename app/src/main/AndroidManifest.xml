@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MyGesture"
+            android:label="@string/title_activity_my_gesture" >
+        </activity>
+        <activity
+            android:name=".DownloadGesture"
+            android:label="@string/title_activity_download_gesture" >
+        </activity>
+        <activity
+            android:name=".MakeGesture"
+            android:label="@string/title_activity_make_gesture" >
+        </activity>
     </application>
 
 </manifest>
