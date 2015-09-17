@@ -6,4 +6,16 @@
     <string name="title_activity_my_gesture">MyGesture</string>
     <string name="title_activity_download_gesture">DownloadGesture</string>
     <string name="title_activity_make_gesture">MakeGesture</string>
+
+    <string-array name="when">
+        <item>배터리가 50% 이하일때</item>
+        <item>충전중일때</item>
+        <item>전화 수신중일때</item>
+    </string-array>
+    <string-array name="how">
+        <item>흔들어서</item>
+        <item>뒤집어서</item>
+        <item>덮어서</item>
+        <item>소리질러서</item>
+    </string-array>
 </resources>

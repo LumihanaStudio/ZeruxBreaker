@@ -1,4 +1,4 @@
-package kr.edcan.zeruxbreaker;
+package kr.edcan.zeruxbreaker.activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -6,10 +6,10 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import kr.edcan.zeruxbreaker.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         actionbar.setDisplayShowCustomEnabled(true);
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1E87E4")));
         actionbar.setCustomView(R.layout.actionbar_layout);
+        actionbar.setElevation(0);
         setDefault();
     }
 
